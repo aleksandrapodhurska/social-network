@@ -1,0 +1,28 @@
+.avatar {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.userInfo {
+	display: grid;
+	grid-template-columns: 20% auto;
+	grid-template-areas: 'image info';
+	margin-bottom: 10px;
+}
+
+.userImage {
+	padding: 10px;
+    grid-area: image;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #D0EFFF;
+}
+
+.descriptionBlock {
+    grid-area: info;
+    padding: 10px;
+    background-color: #D0EFFF;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}

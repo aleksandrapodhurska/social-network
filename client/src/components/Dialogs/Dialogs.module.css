@@ -1,0 +1,90 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: auto 10%;
+    grid-template-areas:
+        'dialogs messages'
+        'dialogs input';
+    background-color: #D0EFFF;
+    grid-gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.dialogsItems {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-area: dialogs;
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px rgb(0 39 74 / 50%);
+    background-color: #fff;
+}
+
+a {
+    color: #797eF6;
+    text-decoration: none;
+}
+
+a.active {
+    color: gold;
+    font-weight: 700;
+}
+
+.messages {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgb(0 39 74 / 50%);
+}
+
+.message {
+    grid-area: messages
+}
+
+.avatar {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+.inputArea {
+    grid-area: input;
+}
+
+
+.selectedPage {
+    font-weight: 700;
+}
+
+.newMessageArea {
+    margin: 0 auto;
+    max-width: 100%;
+    width: calc(100% - 20px);
+    display: grid;
+    grid-template-columns: 8fr auto;
+    grid-template-areas:
+        'input button';
+    grid-gap: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px rgb(0 39 74 / 50%);
+    background-color: #D0EFFF;
+}
+
+
+.inputArea {
+    grid-area: input;
+
+}
+
+.buttonArea {
+    grid-area: button;
+}

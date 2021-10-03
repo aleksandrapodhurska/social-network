@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: calc(100% - 20px);
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgb(0 39 74 / 50%);
+  gap: 8px;
+}
+
+.itemImage, .like {
+  flex: 1 0 0;
+}
+
+.postText {
+  flex: 15 0 0;
+}
+
+.itemImage img {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 30px;
+}

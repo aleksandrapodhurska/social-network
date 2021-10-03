@@ -1,0 +1,182 @@
+{
+	"users": [
+		{
+			"name": "omgdendi",
+			"id": 19937,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "MalyshevaNastya",
+			"id": 19936,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "vladusha",
+			"id": 19935,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "andrew_test_1111",
+			"id": 19934,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "andrew_napoleon1703",
+			"id": 19933,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "andrew_napoleon",
+			"id": 19932,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "Webpage",
+			"id": 19931,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "internetbp27",
+			"id": 19930,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "ReaMichael",
+			"id": 19929,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		},
+		{
+			"name": "hjbhbbbh",
+			"id": 19928,
+			"uniqueUrlName": null,
+			"photos": {
+				"small": null,
+				"large": null
+			},
+			"status": null,
+			"followed": false
+		}
+	],
+	"totalCount": {
+		"totalCount": 14
+	},
+	"profiles": [
+		{
+			"aboutMe": "Lorem ipsum",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"vk": null,
+				"twitter": null,
+				"instagram": null,
+				"youtube": null,
+				"github": null,
+				"mainLink": null
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null,
+			"fullName": "myownpropfile",
+			"userId": 1,
+			"photos": {
+				"small": null,
+				"large": null
+			}
+		},
+		{
+			"aboutMe": "Lorem ipsum",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"vk": null,
+				"twitter": null,
+				"instagram": null,
+				"youtube": null,
+				"github": null,
+				"mainLink": null
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null,
+			"fullName": "omgdendi",
+			"userId": 19937,
+			"photos": {
+				"small": null,
+				"large": null
+			}
+		},
+		{
+			"aboutMe": "Lorem ipsum blah blah",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"vk": null,
+				"twitter": null,
+				"instagram": null,
+				"youtube": null,
+				"github": null,
+				"mainLink": null
+			},
+			"lookingForAJob": true,
+			"lookingForAJobDescription": "Circus clown",
+			"fullName": "andrew_napoleon",
+			"userId": 19932,
+			"photos": {
+				"small": null,
+				"large": null
+			}
+		}
+	]
+}
