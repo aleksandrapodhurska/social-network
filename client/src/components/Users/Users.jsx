@@ -13,7 +13,7 @@ const Users = (props) => {
             <div>
                 {pages.map(p => <span key={props.p} onClick={() => {props.onPageChanged(p)}} className={p === props.selectedPage && s.selectedPage}>{p}</span>)}
             </div>
-            { props.users.map(user => <User key={user.id} toggleFollow={props.toggleFollow} user={user}/>)}
+            { props.users.map(user => <User key={user.userId} toggleFollow={props.toggleFollow} user={user}/>)}
     </div>
     )
 }

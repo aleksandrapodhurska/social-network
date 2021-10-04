@@ -1,182 +1,313 @@
 {
 	"users": [
 		{
-			"name": "omgdendi",
-			"id": 19937,
+			"fullName": "John Smith",
+			"nickName": "Johniyahho",
+			"userId": 19937,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://d3cif2hu95s88v.cloudfront.net/blog/wp-content/uploads/2020/06/21073630/Crocus-Flowers.jpg",
 				"large": null
 			},
-			"status": null,
-			"followed": false
+			"status": "open for cooperation",
+			"followed": false,
+			"location": {
+				"country": "USA",
+				"city": "NYC"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "MalyshevaNastya",
-			"id": 19936,
+			"fullName": "Johanna Black",
+			"nickName": "Jo-Jo",
+			"userId": 19936,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512_960_720.jpg",
 				"large": null
 			},
-			"status": null,
-			"followed": false
+			"status": "Looking for a job",
+			"followed": false,
+			"location": {
+				"country": "Israel",
+				"city": "Tel Aviv"
+			},
+			"aboutMe": "",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "vladusha",
-			"id": 19935,
+			"fullName": "Alexis Nalan",
+			"nickName": "Alexis",
+			"userId": 19935,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://images.unsplash.com/photo-1495231916356-a86217efff12?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyJTIwYmxvb218ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "Canada",
+				"city": "Toronto"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "andrew_test_1111",
-			"id": 19934,
+			"fullName": "Andrew Anderson",
+			"nickName": "Neo",
+			"userId": 19934,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://citaty.info/files/characters/3501.jpg",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "South Africa",
+				"city": "Capetown"
+			},
+			"aboutMe": "",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "andrew_napoleon1703",
-			"id": 19933,
+			"fullName": "Andy Brown",
+			"nickName": "napoleon1703",
+			"userId": 19933,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://i.pinimg.com/originals/bb/9c/65/bb9c6586d746056d8f8d09c489eddb2c.jpg",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "Russia",
+				"city": "Moscow"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": true,
+			"lookingForAJobDescription": "Not really, just kidding."
 		},
 		{
-			"name": "andrew_napoleon",
-			"id": 19932,
+			"fullName": "Maxim Coldwater",
+			"nickName": "Max",
+			"userId": 19932,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://st3.depositphotos.com/1007168/14190/v/1600/depositphotos_141908684-stock-illustration-burger-cartoon-character.jpg",
 				"large": null
 			},
-			"status": null,
-			"followed": false
+			"status": "Looking a senior full-stack dev for a new project",
+			"followed": false,
+			"location": {
+				"country": "Ukraine",
+				"city": "Kiev"
+			},
+			"aboutMe": "",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "Webpage",
-			"id": 19931,
+			"fullName": "Daisy Thompson",
+			"nickName": "Daisy",
+			"userId": 19931,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://pbs.twimg.com/profile_images/883859744498176000/pjEHfbdn.jpg",
 				"large": null
 			},
-			"status": null,
-			"followed": false
+			"status": "HR specialist",
+			"followed": false,
+			"location": {
+				"country": "UK",
+				"city": "London"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "internetbp27",
-			"id": 19930,
+			"fullName": "Lea Levinson",
+			"nickName": "Leika",
+			"userId": 19930,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://desenio.co.uk/bilder/artiklar/zoom/10213_2.jpg?imgwidth=435&qt=Poster%20of%20pink%20magnolias",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "Israel",
+				"city": "Ramat Gan"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": false,
+			"lookingForAJobDescription": null
 		},
 		{
-			"name": "ReaMichael",
-			"id": 19929,
+			"fullName": "Rea Michael",
+			"nickName": "",
+			"userId": 19929,
 			"uniqueUrlName": null,
 			"photos": {
-				"small": null,
+				"small": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-flower-blooming-outdoors-royalty-free-image-739387273-1544039749.jpg",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "Hong Kong",
+				"city": "Hong Kong"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": true,
+			"lookingForAJobDescription": "Java developer"
 		},
 		{
-			"name": "hjbhbbbh",
-			"id": 19928,
-			"uniqueUrlName": null,
+			"fullName": "Rachel Green",
+			"nickName": "",
+			"userId": 19928,
 			"photos": {
-				"small": null,
+				"small": "https://bloomsbythebox.sirv.com/img/product/xlarge/05914A__Pompon_Button_Green_Flowers.jpg",
 				"large": null
 			},
 			"status": null,
-			"followed": false
+			"followed": false,
+			"location": {
+				"country": "USA",
+				"city": "Detroit"
+			},
+			"aboutMe": "Lorem ipsum .............",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": true,
+			"lookingForAJobDescription": "Full stack web developer"
+		},
+		{
+			"fullName": "Sasha Shenkin",
+			"nickName": "Sash",
+			"userId": 1,
+			"photos": {
+				"small": "https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2013/03/butterfly_gardens_20090219_085.jpg?resize=600%2C400&ssl=1",
+				"large": null
+			},
+			"status": null,
+			"followed": false,
+			"location": {
+				"country": "USA",
+				"city": "Detroit"
+			},
+			"aboutMe": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus provident perferendis, harum accusantium magnam!",
+			"contacts": {
+				"facebook": null,
+				"website": null,
+				"twitter": "twitter.com",
+				"instagram": "instagram.com",
+				"youtube": null,
+				"github": null,
+				"linkedIn": "linkedin.com"
+			},
+			"lookingForAJob": true,
+			"lookingForAJobDescription": "Full stack web developer"
 		}
 	],
 	"totalCount": {
 		"totalCount": 14
-	},
-	"profiles": [
-		{
-			"aboutMe": "Lorem ipsum",
-			"contacts": {
-				"facebook": null,
-				"website": null,
-				"vk": null,
-				"twitter": null,
-				"instagram": null,
-				"youtube": null,
-				"github": null,
-				"mainLink": null
-			},
-			"lookingForAJob": false,
-			"lookingForAJobDescription": null,
-			"fullName": "myownpropfile",
-			"userId": 1,
-			"photos": {
-				"small": null,
-				"large": null
-			}
-		},
-		{
-			"aboutMe": "Lorem ipsum",
-			"contacts": {
-				"facebook": null,
-				"website": null,
-				"vk": null,
-				"twitter": null,
-				"instagram": null,
-				"youtube": null,
-				"github": null,
-				"mainLink": null
-			},
-			"lookingForAJob": false,
-			"lookingForAJobDescription": null,
-			"fullName": "omgdendi",
-			"userId": 19937,
-			"photos": {
-				"small": null,
-				"large": null
-			}
-		},
-		{
-			"aboutMe": "Lorem ipsum blah blah",
-			"contacts": {
-				"facebook": null,
-				"website": null,
-				"vk": null,
-				"twitter": null,
-				"instagram": null,
-				"youtube": null,
-				"github": null,
-				"mainLink": null
-			},
-			"lookingForAJob": true,
-			"lookingForAJobDescription": "Circus clown",
-			"fullName": "andrew_napoleon",
-			"userId": 19932,
-			"photos": {
-				"small": null,
-				"large": null
-			}
-		}
-	]
+	}
 }

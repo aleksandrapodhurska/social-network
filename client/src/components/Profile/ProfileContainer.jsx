@@ -14,7 +14,7 @@ class ProfileContainer extends Component {
 			userId = 1;
 		}
 		axios
-			.get(`http://localhost:8000/profiles?userId=${userId}`)
+			.get(`http://localhost:8000/users?userId=${userId}`)
 			.then(res => {
 				this.props.setProfile(res.data[0]);
 			});

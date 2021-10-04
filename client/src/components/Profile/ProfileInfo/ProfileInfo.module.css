@@ -2,12 +2,19 @@
     width: 10vw;
     height: 10vw;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .profileInfo {
    display: grid;
    grid-template-columns: 20% auto;
-   grid-template-areas: 'image info';
+   grid-template-areas: 
+    'image info'
+    '. info';
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
 }
 
 .profileImage {
@@ -26,3 +33,6 @@
     border-top-right-radius: 10px;
 }
 
+.backButton {
+    padding: 2px 5px 0 5px;
+}

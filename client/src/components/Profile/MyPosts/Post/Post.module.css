@@ -1,4 +1,4 @@
-.item {
+.postItem {
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -11,8 +11,15 @@
   gap: 8px;
 }
 
-.itemImage, .like {
+.itemImage {
   flex: 1 0 0;
+}
+
+.likeArea {
+  flex: 2 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .postText {
@@ -23,4 +30,10 @@
   width: 5vw;
   height: 5vw;
   border-radius: 30px;
+  object-fit: cover;
 }
+
+.likeButton {
+  padding: 2px 5px 0px 5px;
+}
+

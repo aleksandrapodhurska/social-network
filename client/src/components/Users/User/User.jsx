@@ -7,7 +7,7 @@ const User = (props) => {
 	return (
 		<div className={s.userInfo}>
 			<div className={s.userImage}>
-				<NavLink to={`/profile/${props.id}`}>
+				<NavLink to={`/profile/${props.user.userId}`}>
 					<img
 						className={s.avatar}
 						src={
@@ -20,11 +20,11 @@ const User = (props) => {
 				</NavLink>
 			</div>
 			<div className={s.descriptionBlock}>
-				<div>{props.user.name}</div>
-				<div>{"props.user.status"}</div>
-				<div>{"user.location.city"}</div>
-				<div>{"user.location.country"}</div>
-				<button onClick={() => props.toggleFollow(props.user.id)}>
+				<div>{props.user.fullName}</div>
+				<div>{props.user.status !== null ? props.user.status : ''}</div>
+				<div>{props.user.location.city}</div>
+				<div>{props.user.location.country}</div>
+				<button onClick={() => props.toggleFollow(props.user.userId)}>
 					{props.user.following ? "UNFOLLOW" : "FOLLOW"}
 				</button>
 			</div>
