@@ -9,13 +9,15 @@ class UsersContainer extends React.Component {
     getUsers = () => {
 		this.props.toggleIsFetching(true);
         axios
-            .get(`http://localhost:8000/users?_page=${this.props.selectedPage}&_limit=${this.props.pageSize}`)
+			.get(`http://localhost:8000/users?_page=${this.props.selectedPage}&_limit=${this.props.pageSize}`,
+			{withCredentials: true})
             .then(res => {
 				this.props.toggleIsFetching(false);
 				this.props.setUsers(res.data);
             });
         axios
-        .get(`http://localhost:8000/totalCount`)
+		.get(`http://localhost:8000/totalCount`,
+		{withCredentials: true})
         .then(res => {
             this.props.setTotalCount(res.data.totalCount);
         })

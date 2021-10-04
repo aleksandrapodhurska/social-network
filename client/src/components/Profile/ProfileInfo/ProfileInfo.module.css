@@ -13,8 +13,8 @@
     '. info';
     background-color: aliceblue;
     border-radius: 10px;
-    border-top-left-radius: 55px;
-    border-bottom-left-radius: 55px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .profileImage {

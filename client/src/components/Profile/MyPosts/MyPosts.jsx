@@ -5,8 +5,7 @@ import Picker from 'emoji-picker-react';
 import { FaRegSmile } from "react-icons/fa";
 
 const MyPosts = (props) => {
-  console.log(props);
-  let postElements = props.posts.map(post => <Post id={post.id} message={post.message} likesCount={post.likesCount} />)
+  let postElements = props.posts.map(post => <Post key={post.id} message={post.message} likesCount={post.likesCount} />)
 
   let addPost = () => {
     props.addPost();
