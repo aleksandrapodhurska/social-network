@@ -1,3 +1,4 @@
+import usersAPI from "../api/ajax";
 const TOGGLE_FOLLOW = "TOGGLE_FOLLOW";
 const SET_USERS = "SET_USERS";
 const SELECT_PAGE = "SELECT_PAGE";
@@ -78,5 +79,28 @@ export const toggleFollowingInProgress = (isFetching, userId) => ({
 	isFetching,
 	userId,
 });
+
+export const getUsersThunkCreator = (selectPage, pageSize) => {
+	return (dispatch) => {
+		dispatch(toggleIsFetching(true));
+		usersAPI.getUsers(selectPage, pageSize).then((data) => {
+			dispatch(toggleIsFetching(false));
+			dispatch(setUsers(data));
+		});
+		usersAPI.getTotalCount().then((data) => {
+			dispatch(setTotalCount(data.totalCount));
+		});
+	};
+};
+
+export const toggleFollowingThunkCreator = (id, reqBody) => {
+	return (dispatch) => {
+		dispatch(toggleFollowingInProgress(true, id));
+		usersAPI.toggleFollowUser(id, reqBody).then(() => {
+			dispatch(toggleFollowingInProgress(false, id));
+			dispatch(toggleFollow(id));
+		});
+	};
+};
 
 export default usersReducer;

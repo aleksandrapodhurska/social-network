@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
 import Profile from './Profile';
-import axios from 'axios';
 import { connect } from 'react-redux';
-import {setProfile} from '../../redux/profileReducer';
+import {setProfileThunkCreator} from '../../redux/profileReducer';
 import {withRouter} from 'react-router-dom';
-
-
 class ProfileContainer extends Component {
 	componentDidMount() {
 		const {match} = this.props;
@@ -13,13 +10,7 @@ class ProfileContainer extends Component {
 		if (!userId) {
 			userId = 1;
 		}
-		axios
-			.get(`http://localhost:8000/users?userId=${userId}`,
-			{withCredentials: true})
-			.then(res => {
-				this.props.setProfile(res.data[0]);
-			});
-			
+		this.props.setProfile(userId);
 	}
 
 	render() {
@@ -39,4 +30,4 @@ let mapStateToProps = (state) => {
 
 const ProfileContainerWithRouter = withRouter(ProfileContainer);
 
-export default connect(mapStateToProps, { setProfile })(ProfileContainerWithRouter);
+export default connect(mapStateToProps, { setProfile: setProfileThunkCreator })(ProfileContainerWithRouter);

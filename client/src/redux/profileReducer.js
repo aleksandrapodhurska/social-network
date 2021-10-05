@@ -1,3 +1,5 @@
+import userAPI from "../api/ajax";
+
 const ADD_POST = "ADD-POST";
 const UPDATE_NEW_POST_TEXT = "UPDATE-NEW-POST-TEXT";
 const SET_PROFILE = "SET_PROFILE";
@@ -48,5 +50,13 @@ export const setProfile = (profile) => ({
 	type: SET_PROFILE,
 	profile,
 });
+
+export const setProfileThunkCreator = (id) => {
+	return (dispatch) => {
+		userAPI.getUser(id).then((data) => {
+			dispatch(setProfile(data));
+		});
+	};
+};
 
 export default profileReducer;

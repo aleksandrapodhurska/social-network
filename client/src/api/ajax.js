@@ -30,6 +30,12 @@ const usersAPI = {
 			return res.data;
 		});
 	},
+	getUser(id) {
+		return instance.get(`users/${id}`).then((res) => {
+			return res.data;
+		});
+	},
+	
 };
 
 export default usersAPI;

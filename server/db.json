@@ -10,7 +10,7 @@
         "large": null
       },
       "status": "open for cooperation",
-      "followed": true,
+      "followed": false,
       "location": {
         "country": "USA",
         "city": "NYC"
@@ -68,7 +68,7 @@
         "large": null
       },
       "status": null,
-      "followed": false,
+      "followed": true,
       "location": {
         "country": "Canada",
         "city": "Toronto"
@@ -96,7 +96,7 @@
         "large": null
       },
       "status": null,
-      "followed": true,
+      "followed": false,
       "location": {
         "country": "South Africa",
         "city": "Capetown"

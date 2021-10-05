@@ -2,33 +2,15 @@ import React from 'react';
 import Users from './Users';
 import Spinner from '../Spinner/spinner';
 import {connect} from 'react-redux';
-import { toggleFollow, setUsers, selectPage, setTotalCount, toggleIsFetching, toggleFollowingInProgress } from '../../redux/usersReducer';
-import usersAPI from '../../api/ajax';
+import { selectPage, getUsersThunkCreator, toggleFollowingThunkCreator } from '../../redux/usersReducer';
 
 class UsersContainer extends React.Component {
-    getUsers = () => {
-		this.props.toggleIsFetching(true);
-		usersAPI.getUsers(this.props.selectPage, this.props.pageSize)
-            .then(data => {
-				this.props.toggleIsFetching(false);
-				this.props.setUsers(data);
-            });
-        usersAPI.getTotalCount()
-        .then(data => {
-            this.props.setTotalCount(data.totalCount);
-        })
-    }
     componentDidMount() {
-        this.getUsers();
+        this.props.getUsers(this.props.selectPage, this.props.pageSize)
     }
     onPageChanged = (p) => {
 		this.props.selectPage(p);
-		this.props.toggleIsFetching(true);
-        usersAPI.getUsersForNewPage(p, this.props.pageSize)
-			.then(data => {
-				this.props.toggleIsFetching(false);
-				this.props.setUsers(data)
-			});
+		this.props.getUsers(p, this.props.pageSize)
     }
     render() {
 		return <> {
@@ -36,14 +18,12 @@ class UsersContainer extends React.Component {
 				<Spinner /> :
 				<Users 
 					users={this.props.users}
-					totalCount={this.props.totalCount}
 					pageSize={this.props.pageSize}
+					totalCount={this.props.totalCount}
 					onPageChanged={this.onPageChanged}
 					selectedPage={this.props.selectedPage}
-					toggleFollow={this.props.toggleFollow}
-					isFetching={this.props.isFetching}
-					toggleFollowingInProgress={this.props.toggleFollowingInProgress}
 					followingInProgress={this.props.followingInProgress}
+					toggleFollowing={this.props.toggleFollowing}
 				/> 
 		
 				}
@@ -63,12 +43,8 @@ let mapStateToProps = (state) => {
 	}
 }	
 
-
 export default connect(mapStateToProps, {
-	toggleFollow,
-	setUsers,
-	setTotalCount,
 	selectPage,
-	toggleIsFetching,
-	toggleFollowingInProgress,
+	getUsers: getUsersThunkCreator,
+	toggleFollowing: toggleFollowingThunkCreator,
 })(UsersContainer);
