@@ -2,3 +2,7 @@
 	font-weight: 700;
 }
 
+.pagination > span {
+	cursor: pointer;
+	margin-right: 5px;
+}

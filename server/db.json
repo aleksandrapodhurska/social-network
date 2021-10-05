@@ -10,7 +10,7 @@
         "large": null
       },
       "status": "open for cooperation",
-      "followed": false,
+      "followed": true,
       "location": {
         "country": "USA",
         "city": "NYC"
